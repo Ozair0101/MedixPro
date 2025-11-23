@@ -6,6 +6,7 @@ use App\Models\Category;
 use App\Models\Supplier;
 use App\Models\Purchase;
 use App\Models\PurchaseItem;
+use App\Http\Controllers\PatientController;
 
 Route::prefix('pharmacy')
     ->name('pharmacy.')
@@ -250,4 +251,10 @@ Route::prefix('v1')->group(function () {
             return response()->json($purchase->fresh(), 201);
         });
     });
+
+    // Patient Management Routes
+    Route::apiResource('patients', PatientController::class);
+    
+    // Additional patient search endpoint
+    Route::get('patients/search/{term}', [PatientController::class, 'search']);
 });
