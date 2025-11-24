@@ -23,8 +23,13 @@ class Patient extends Model
         'email',
         'phone_number',
         'emergency_contact_phone',
+        'emergency_name',
+        'medical_file',
+        'remark',
         'address_json',
-        'is_active'
+        'is_active',
+        'city',
+        'street_address'
     ];
 
     protected $casts = [
