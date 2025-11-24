@@ -50,7 +50,7 @@ class PatientController extends Controller
     public function show(Patient $patient): JsonResponse
     {
         return response()->json([
-            'data' => $patient->loadMissing('visits')
+            'data' => $patient
         ]);
     }
 
