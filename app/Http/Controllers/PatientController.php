@@ -100,4 +100,20 @@ class PatientController extends Controller
             ], Response::HTTP_INTERNAL_SERVER_ERROR);
         }
     }
+
+    public function search(string $term): JsonResponse
+    {
+        $patients = Patient::query()
+            ->where('first_name', 'like', "%{$term}%")
+            ->orWhere('last_name', 'like', "%{$term}%")
+            ->orWhere('patient_code', 'like', "%{$term}%")
+            ->orWhere('email', 'like', "%{$term}%")
+            ->orWhere('phone', 'like', "%{$term}%")
+            ->limit(10)
+            ->get();
+
+        return response()->json([
+            'data' => $patients
+        ]);
+    }
 }
