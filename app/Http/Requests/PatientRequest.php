@@ -37,6 +37,11 @@ class PatientRequest extends FormRequest
             'email' => 'nullable|email|max:255',
             'phone_number' => 'required|string|max:20',
             'emergency_contact_phone' => 'required|string|max:20',
+            'emergency_name' => 'nullable|string|max:100',
+            'medical_file' => 'nullable|string|max:100',
+            'remark' => 'nullable|string',
+            'street_address' => 'nullable|string|max:255',
+            'city' => 'nullable|string|max:100',
             'address_json' => 'nullable|array',
             'is_active' => 'boolean',
         ];
