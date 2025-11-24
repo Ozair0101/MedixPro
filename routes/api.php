@@ -7,6 +7,20 @@ use App\Models\Supplier;
 use App\Models\Purchase;
 use App\Models\PurchaseItem;
 use App\Http\Controllers\PatientController;
+use App\Http\Controllers\AuthController;
+
+// Authentication routes (public)
+Route::post('auth/login', [AuthController::class, 'login']);
+Route::get('sanctum/csrf-cookie', function () {
+    return response()->json(['message' => 'CSRF cookie set']);
+});
+
+// Protected routes
+Route::middleware('auth:sanctum')->group(function () {
+    Route::post('auth/logout', [AuthController::class, 'logout']);
+    Route::get('auth/me', [AuthController::class, 'me']);
+    Route::post('auth/refresh', [AuthController::class, 'refresh']);
+});
 
 Route::prefix('pharmacy')
     ->name('pharmacy.')
@@ -57,7 +71,7 @@ Route::prefix('pharmacy')
     });
 
 // Temporary inventory routes (simple implementations) so frontend can work
-Route::prefix('v1')->group(function () {
+Route::prefix('v1')->middleware('auth:sanctum')->group(function () {
     // Categories: basic index + store using Category model
     Route::get('categories', function (Request $request) {
         $perPage = (int) $request->query('per_page', 15);
