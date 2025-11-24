@@ -16,7 +16,7 @@ class UserSeeder extends Seeder
     {
         // Create a default admin user
         User::firstOrCreate(
-            ['email' => 'dev@example.com'],
+            ['email' => 'dev@dev.com'],
             [
                 'name' => 'Developer',
                 'password' => Hash::make('dev'),
