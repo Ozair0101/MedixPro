@@ -95,9 +95,15 @@ class EncounterService
         }
 
         // upper_inf(period) means the visit has no end: still open.
+        //
+        // The cutoff is computed in PHP rather than as `now() - interval ?`,
+        // because Postgres parses an interval literal — it will not accept a
+        // bind parameter there.
+        $cutoff = now()->subHours(self::VISIT_REUSE_HOURS);
+
         $open = Visit::where('patient_id', $patient->id)
             ->whereRaw('upper_inf(period)')
-            ->whereRaw('lower(period) > now() - interval ? ', [self::VISIT_REUSE_HOURS.' hours'])
+            ->whereRaw('lower(period) > ?', [$cutoff])
             ->orderByRaw('lower(period) DESC')
             ->first();
 

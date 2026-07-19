@@ -66,6 +66,13 @@ Route::prefix('v1')->middleware(['auth:sanctum', 'facility'])->group(function ()
     // Should always return an empty list. Anything here means a write path
     // bypassed the ledger service and the shelf no longer matches the screen.
     Route::get('stock/reconciliation', [DispenseController::class, 'reconciliation']);
+
+    // ---- Generated CRUD --------------------------------------------------
+    //
+    // Included LAST so that the hand-written routes above always win: a
+    // generated `apiResource('patients')` would otherwise shadow the
+    // search-before-create and merge endpoints.
+    require __DIR__.'/api_generated.php';
 });
 
 /*
