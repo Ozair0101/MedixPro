@@ -1,13 +1,21 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
-use Illuminate\Http\Request;
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\PatientController;
+use App\Http\Controllers\Pharmacy\BatchController;
+use App\Http\Controllers\Pharmacy\DashboardController;
+use App\Http\Controllers\Pharmacy\DispenseController;
+use App\Http\Controllers\Pharmacy\MedicationController;
+use App\Http\Controllers\Pharmacy\PrescriptionController;
+use App\Http\Controllers\Pharmacy\ReportController;
+use App\Http\Controllers\Pharmacy\StockAdjustmentController;
 use App\Models\Category;
-use App\Models\Supplier;
 use App\Models\Purchase;
 use App\Models\PurchaseItem;
-use App\Http\Controllers\PatientController;
-use App\Http\Controllers\AuthController;
+use App\Models\Supplier;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Route;
 
 // Authentication routes (public)
 Route::post('auth/login', [AuthController::class, 'login']);
@@ -22,56 +30,63 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::post('auth/refresh', [AuthController::class, 'refresh']);
 });
 
+// SECURITY: this group was previously unauthenticated. Anyone who could reach
+// the API could read prescriptions, adjust stock and record dispenses.
 Route::prefix('pharmacy')
     ->name('pharmacy.')
+    ->middleware(['auth:sanctum', 'facility'])
     ->group(function () {
         // Dashboard
-        Route::get('dashboard', [\App\Http\Controllers\Pharmacy\DashboardController::class, 'index'])
+        Route::get('dashboard', [DashboardController::class, 'index'])
             ->name('dashboard');
 
         // Prescriptions
-        Route::get('prescriptions', [\App\Http\Controllers\Pharmacy\PrescriptionController::class, 'index'])
+        Route::get('prescriptions', [PrescriptionController::class, 'index'])
             ->name('prescriptions.index');
-        Route::get('prescriptions/{id}', [\App\Http\Controllers\Pharmacy\PrescriptionController::class, 'show'])
+        Route::get('prescriptions/{id}', [PrescriptionController::class, 'show'])
             ->name('prescriptions.show');
-        Route::post('prescriptions/{id}/dispense', [\App\Http\Controllers\Pharmacy\DispenseController::class, 'store'])
+        Route::post('prescriptions/{id}/dispense', [DispenseController::class, 'store'])
             ->name('prescriptions.dispense');
 
         // Medications
-        Route::get('medications', [\App\Http\Controllers\Pharmacy\MedicationController::class, 'index'])
+        Route::get('medications', [MedicationController::class, 'index'])
             ->name('medications.index');
-        Route::post('medications', [\App\Http\Controllers\Pharmacy\MedicationController::class, 'store'])
+        Route::post('medications', [MedicationController::class, 'store'])
             ->name('medications.store');
-        Route::get('medications/{id}', [\App\Http\Controllers\Pharmacy\MedicationController::class, 'show'])
+        Route::get('medications/{id}', [MedicationController::class, 'show'])
             ->name('medications.show');
-        Route::put('medications/{id}', [\App\Http\Controllers\Pharmacy\MedicationController::class, 'update'])
+        Route::put('medications/{id}', [MedicationController::class, 'update'])
             ->name('medications.update');
-        Route::delete('medications/{id}', [\App\Http\Controllers\Pharmacy\MedicationController::class, 'destroy'])
+        Route::delete('medications/{id}', [MedicationController::class, 'destroy'])
             ->name('medications.destroy');
 
         // Batches
-        Route::get('batches', [\App\Http\Controllers\Pharmacy\BatchController::class, 'index'])
+        Route::get('batches', [BatchController::class, 'index'])
             ->name('batches.index');
-        Route::post('batches', [\App\Http\Controllers\Pharmacy\BatchController::class, 'store'])
+        Route::post('batches', [BatchController::class, 'store'])
             ->name('batches.store');
-        Route::put('batches/{id}', [\App\Http\Controllers\Pharmacy\BatchController::class, 'update'])
+        Route::put('batches/{id}', [BatchController::class, 'update'])
             ->name('batches.update');
 
         // Stock adjustments
-        Route::post('stock/adjust', [\App\Http\Controllers\Pharmacy\StockAdjustmentController::class, 'store'])
+        Route::post('stock/adjust', [StockAdjustmentController::class, 'store'])
             ->name('stock.adjust');
 
         // Reports
-        Route::get('reports/expiry', [\App\Http\Controllers\Pharmacy\ReportController::class, 'expiry'])
+        Route::get('reports/expiry', [ReportController::class, 'expiry'])
             ->name('reports.expiry');
-        Route::get('reports/stock', [\App\Http\Controllers\Pharmacy\ReportController::class, 'stock'])
+        Route::get('reports/stock', [ReportController::class, 'stock'])
             ->name('reports.stock');
-        Route::get('reports/dispensing', [\App\Http\Controllers\Pharmacy\ReportController::class, 'dispensing'])
+        Route::get('reports/dispensing', [ReportController::class, 'dispensing'])
             ->name('reports.dispensing');
     });
 
-// Temporary inventory routes (simple implementations) so frontend can work
-Route::prefix('v1')->middleware('auth:sanctum')->group(function () {
+// Temporary inventory routes (simple implementations) so frontend can work.
+//
+// TODO(Phase 2): these closures are scheduled for extraction into controllers
+// and services. The purchase-order creation in particular writes across two
+// tables in a transaction and belongs in a service, not a route file.
+Route::prefix('v1')->middleware(['auth:sanctum', 'facility'])->group(function () {
     // Categories: basic index + store using Category model
     Route::get('categories', function (Request $request) {
         $perPage = (int) $request->query('per_page', 15);
@@ -209,31 +224,31 @@ Route::prefix('v1')->middleware('auth:sanctum')->group(function () {
         $hospitalId = (int) $request->header('X-Hospital-Id', 1);
 
         $validated = $request->validate([
-            'supplier_id'               => ['required', 'integer'],
-            'order_date'                => ['required', 'date'],
-            'expected_date'             => ['nullable', 'date'],
-            'currency'                  => ['required', 'string'],
-            'notes'                     => ['nullable', 'string'],
-            'items'                     => ['required', 'array', 'min:1'],
-            'items.*.medication_id'    => ['required', 'integer'],
+            'supplier_id' => ['required', 'integer'],
+            'order_date' => ['required', 'date'],
+            'expected_date' => ['nullable', 'date'],
+            'currency' => ['required', 'string'],
+            'notes' => ['nullable', 'string'],
+            'items' => ['required', 'array', 'min:1'],
+            'items.*.medication_id' => ['required', 'integer'],
             'items.*.quantity_ordered' => ['required', 'integer', 'min:1'],
-            'items.*.unit_cost'        => ['required', 'numeric', 'min:0'],
-            'items.*.tax'              => ['nullable', 'numeric', 'min:0'],
-            'items.*.discount'         => ['nullable', 'numeric', 'min:0'],
+            'items.*.unit_cost' => ['required', 'numeric', 'min:0'],
+            'items.*.tax' => ['nullable', 'numeric', 'min:0'],
+            'items.*.discount' => ['nullable', 'numeric', 'min:0'],
         ]);
 
-        return \DB::transaction(function () use ($validated, $hospitalId, $request) {
+        return DB::transaction(function () use ($validated, $hospitalId, $request) {
             $purchase = Purchase::create([
-                'supplier_id'  => $validated['supplier_id'],
-                'reference_no' => 'PO-' . now()->format('Ymd-His'),
-                'status'       => 'draft',
-                'order_date'   => $validated['order_date'],
-                'expected_date'=> $validated['expected_date'] ?? null,
+                'supplier_id' => $validated['supplier_id'],
+                'reference_no' => 'PO-'.now()->format('Ymd-His'),
+                'status' => 'draft',
+                'order_date' => $validated['order_date'],
+                'expected_date' => $validated['expected_date'] ?? null,
                 'total_amount' => 0,
-                'currency'     => $validated['currency'],
-                'hospital_id'  => $hospitalId,
-                'notes'        => $validated['notes'] ?? null,
-                'created_by'   => optional($request->user())->id,
+                'currency' => $validated['currency'],
+                'hospital_id' => $hospitalId,
+                'notes' => $validated['notes'] ?? null,
+                'created_by' => optional($request->user())->id,
             ]);
 
             $total = 0;
@@ -243,18 +258,18 @@ Route::prefix('v1')->middleware('auth:sanctum')->group(function () {
                     - ($item['discount'] ?? 0);
 
                 PurchaseItem::create([
-                    'purchase_id'       => $purchase->id,
-                    'medication_id'     => $item['medication_id'],
-                    'category_id'       => null,
-                    'batch_no'          => null,
-                    'expiry_date'       => null,
-                    'unit_cost'         => $item['unit_cost'],
-                    'quantity_ordered'  => $item['quantity_ordered'],
+                    'purchase_id' => $purchase->id,
+                    'medication_id' => $item['medication_id'],
+                    'category_id' => null,
+                    'batch_no' => null,
+                    'expiry_date' => null,
+                    'unit_cost' => $item['unit_cost'],
+                    'quantity_ordered' => $item['quantity_ordered'],
                     'quantity_received' => 0,
-                    'tax'               => $item['tax'] ?? 0,
-                    'discount'          => $item['discount'] ?? 0,
-                    'line_total'        => $line,
-                    'hospital_id'       => $hospitalId,
+                    'tax' => $item['tax'] ?? 0,
+                    'discount' => $item['discount'] ?? 0,
+                    'line_total' => $line,
+                    'hospital_id' => $hospitalId,
                 ]);
 
                 $total += $line;
@@ -267,8 +282,23 @@ Route::prefix('v1')->middleware('auth:sanctum')->group(function () {
     });
 
     // Patient Management Routes
-    Route::apiResource('patients', PatientController::class);
-    
-    // Additional patient search endpoint
+    //
+    // ORDER MATTERS: literal paths must be registered BEFORE apiResource,
+    // otherwise the resource's `show` route (`patients/{patient}`) matches
+    // first and every literal below becomes unreachable.
     Route::get('patients/search/{term}', [PatientController::class, 'search']);
+
+    // Search-before-create support: score a prospective registration without
+    // writing anything, so the UI can warn before the clerk commits.
+    Route::post('patients/check-duplicates', [PatientController::class, 'checkDuplicates']);
+
+    // Duplicate review queue. Merging is never automatic — a false positive
+    // fuses two people's medical histories.
+    Route::get('patients/duplicates', [PatientController::class, 'duplicateQueue']);
+    Route::post('patients/merge', [PatientController::class, 'mergePatients']);
+    Route::post('patients/unmerge', [PatientController::class, 'unmergePatients']);
+    Route::post('patients/duplicates/{candidate}/reject',
+        [PatientController::class, 'rejectDuplicate']);
+
+    Route::apiResource('patients', PatientController::class);
 });

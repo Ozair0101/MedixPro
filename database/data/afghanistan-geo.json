@@ -1,0 +1,3054 @@
+{
+ "source": "OCHA COD-AB Afghanistan (afg_admin_boundaries.xlsx)",
+ "source_url": "https://data.humdata.org/dataset/cod-ab-afg",
+ "valid_on": "2025-06-01",
+ "provinces": [
+  {
+   "pcode": "AF17",
+   "name_latin": "Badakhshan",
+   "name_dari": "بدخشان",
+   "name_pashto": null,
+   "region": "سهیل ختیځه حوزه"
+  },
+  {
+   "pcode": "AF20",
+   "name_latin": "Samangan",
+   "name_dari": "سمنگان",
+   "name_pashto": null,
+   "region": "سهیلی حوزه"
+  },
+  {
+   "pcode": "AF05",
+   "name_latin": "Logar",
+   "name_dari": "لوگر",
+   "name_pashto": null,
+   "region": "مرکزی حوزه"
+  },
+  {
+   "pcode": "AF12",
+   "name_latin": "Paktika",
+   "name_dari": "پکتیکا",
+   "name_pashto": null,
+   "region": "جنوب ختیځه حوزه"
+  },
+  {
+   "pcode": "AF22",
+   "name_latin": "Sar-e-Pul",
+   "name_dari": "سرپل",
+   "name_pashto": null,
+   "region": "سهیلی حوزه"
+  },
+  {
+   "pcode": "AF13",
+   "name_latin": "Paktya",
+   "name_dari": "پکتیا",
+   "name_pashto": null,
+   "region": "جنوب ختیځه حوزه"
+  },
+  {
+   "pcode": "AF16",
+   "name_latin": "Nuristan",
+   "name_dari": "نورستان",
+   "name_pashto": null,
+   "region": "ختیځه حوزه"
+  },
+  {
+   "pcode": "AF21",
+   "name_latin": "Balkh",
+   "name_dari": "بلخ",
+   "name_pashto": null,
+   "region": "سهیلی حوزه"
+  },
+  {
+   "pcode": "AF08",
+   "name_latin": "Panjsher",
+   "name_dari": "پنجشیر",
+   "name_pashto": null,
+   "region": "مرکزی حوزه"
+  },
+  {
+   "pcode": "AF28",
+   "name_latin": "Jawzjan",
+   "name_dari": "جوزجان",
+   "name_pashto": null,
+   "region": "سهیلی حوزه"
+  },
+  {
+   "pcode": "AF27",
+   "name_latin": "Kandahar",
+   "name_dari": "کندهار",
+   "name_pashto": null,
+   "region": "جنوبی حوزه"
+  },
+  {
+   "pcode": "AF24",
+   "name_latin": "Daykundi",
+   "name_dari": "دایکندی",
+   "name_pashto": null,
+   "region": "لوړه مرکزی حوزه"
+  },
+  {
+   "pcode": "AF25",
+   "name_latin": "Uruzgan",
+   "name_dari": "ارزگان",
+   "name_pashto": null,
+   "region": "جنوبی حوزه"
+  },
+  {
+   "pcode": "AF23",
+   "name_latin": "Ghor",
+   "name_dari": "غور",
+   "name_pashto": null,
+   "region": "لویدیځه حوزه"
+  },
+  {
+   "pcode": "AF33",
+   "name_latin": "Farah",
+   "name_dari": "فراه",
+   "name_pashto": null,
+   "region": "لویدیځه حوزه"
+  },
+  {
+   "pcode": "AF03",
+   "name_latin": "Parwan",
+   "name_dari": "پروان",
+   "name_pashto": null,
+   "region": "مرکزی حوزه"
+  },
+  {
+   "pcode": "AF29",
+   "name_latin": "Faryab",
+   "name_dari": "فاریاب",
+   "name_pashto": null,
+   "region": "سهیلی حوزه"
+  },
+  {
+   "pcode": "AF19",
+   "name_latin": "Kunduz",
+   "name_dari": "کندز",
+   "name_pashto": null,
+   "region": "سهیل ختیځه حوزه"
+  },
+  {
+   "pcode": "AF14",
+   "name_latin": "Khost",
+   "name_dari": "خوست",
+   "name_pashto": null,
+   "region": "جنوب ختیځه حوزه"
+  },
+  {
+   "pcode": "AF32",
+   "name_latin": "Hirat",
+   "name_dari": "هرات",
+   "name_pashto": null,
+   "region": "لویدیځه حوزه"
+  },
+  {
+   "pcode": "AF15",
+   "name_latin": "Kunar",
+   "name_dari": "کنر ها",
+   "name_pashto": null,
+   "region": "ختیځه حوزه"
+  },
+  {
+   "pcode": "AF01",
+   "name_latin": "Kabul",
+   "name_dari": "کابل",
+   "name_pashto": null,
+   "region": "مرکزی حوزه"
+  },
+  {
+   "pcode": "AF30",
+   "name_latin": "Hilmand",
+   "name_dari": "هلمند",
+   "name_pashto": null,
+   "region": "جنوبی حوزه"
+  },
+  {
+   "pcode": "AF11",
+   "name_latin": "Ghazni",
+   "name_dari": "غزنی",
+   "name_pashto": null,
+   "region": "جنوب ختیځه حوزه"
+  },
+  {
+   "pcode": "AF04",
+   "name_latin": "Maidan Wardak",
+   "name_dari": "میدان وردک",
+   "name_pashto": null,
+   "region": "مرکزی حوزه"
+  },
+  {
+   "pcode": "AF02",
+   "name_latin": "Kapisa",
+   "name_dari": "کاپیسا",
+   "name_pashto": null,
+   "region": "مرکزی حوزه"
+  },
+  {
+   "pcode": "AF06",
+   "name_latin": "Nangarhar",
+   "name_dari": "ننگرهار",
+   "name_pashto": null,
+   "region": "ختیځه حوزه"
+  },
+  {
+   "pcode": "AF26",
+   "name_latin": "Zabul",
+   "name_dari": "زابل",
+   "name_pashto": null,
+   "region": "جنوبی حوزه"
+  },
+  {
+   "pcode": "AF18",
+   "name_latin": "Takhar",
+   "name_dari": "تخار",
+   "name_pashto": null,
+   "region": "سهیل ختیځه حوزه"
+  },
+  {
+   "pcode": "AF34",
+   "name_latin": "Nimroz",
+   "name_dari": "نیمروز",
+   "name_pashto": null,
+   "region": "جنوبی حوزه"
+  },
+  {
+   "pcode": "AF07",
+   "name_latin": "Laghman",
+   "name_dari": "لغمان",
+   "name_pashto": null,
+   "region": "ختیځه حوزه"
+  },
+  {
+   "pcode": "AF09",
+   "name_latin": "Baghlan",
+   "name_dari": "بغلان",
+   "name_pashto": null,
+   "region": "سهیل ختیځه حوزه"
+  },
+  {
+   "pcode": "AF31",
+   "name_latin": "Badghis",
+   "name_dari": "بادغیس",
+   "name_pashto": null,
+   "region": "لویدیځه حوزه"
+  },
+  {
+   "pcode": "AF10",
+   "name_latin": "Bamyan",
+   "name_dari": "بامیان",
+   "name_pashto": null,
+   "region": "لوړه مرکزی حوزه"
+  }
+ ],
+ "districts": [
+  {
+   "pcode": "AF1705",
+   "province_pcode": "AF17",
+   "name_latin": "Khash",
+   "name_dari": "خاش",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2002",
+   "province_pcode": "AF20",
+   "name_latin": "Hazrat-e-Sultan",
+   "name_dari": "حضرت سلطان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0501",
+   "province_pcode": "AF05",
+   "name_latin": "Pul-e-Alam",
+   "name_dari": "پل علم",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1202",
+   "province_pcode": "AF12",
+   "name_latin": "Mata Khan",
+   "name_dari": "متاخان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2206",
+   "province_pcode": "AF22",
+   "name_latin": "Gosfandi",
+   "name_dari": "گوسفندی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1310",
+   "province_pcode": "AF13",
+   "name_latin": "Chamkani",
+   "name_dari": "څمکنی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1712",
+   "province_pcode": "AF17",
+   "name_latin": "Shuhada",
+   "name_dari": "شهدا",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1602",
+   "province_pcode": "AF16",
+   "name_latin": "Waygal",
+   "name_dari": "وایگل",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2113",
+   "province_pcode": "AF21",
+   "name_latin": "Kaldar",
+   "name_dari": "کلدار",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0807",
+   "province_pcode": "AF08",
+   "name_latin": "Paryan",
+   "name_dari": "پریان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2804",
+   "province_pcode": "AF28",
+   "name_latin": "Mingajik",
+   "name_dari": "منگجک",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2709",
+   "province_pcode": "AF27",
+   "name_latin": "Ghorak",
+   "name_dari": "غورک",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2402",
+   "province_pcode": "AF24",
+   "name_latin": "Shahrestan",
+   "name_dari": "شهرستان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2116",
+   "province_pcode": "AF21",
+   "name_latin": "Sharak-e-Hayratan",
+   "name_dari": "شهرک حیرتان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2506",
+   "province_pcode": "AF25",
+   "name_latin": "Chinarto",
+   "name_dari": "چنارتو",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2704",
+   "province_pcode": "AF27",
+   "name_latin": "Panjwayi",
+   "name_dari": "پنجوائی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2306",
+   "province_pcode": "AF23",
+   "name_latin": "Shahrak",
+   "name_dari": "شهرک",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3309",
+   "province_pcode": "AF33",
+   "name_latin": "Lash-e-Juwayn",
+   "name_dari": "لاش جوین",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0307",
+   "province_pcode": "AF03",
+   "name_latin": "Ghorband",
+   "name_dari": "غوربند",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2902",
+   "province_pcode": "AF29",
+   "name_latin": "Pashtun Kot",
+   "name_dari": "پشتون کوټ",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2105",
+   "province_pcode": "AF21",
+   "name_latin": "Marmul",
+   "name_dari": "مارمُل",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1905",
+   "province_pcode": "AF19",
+   "name_latin": "Imam Sahib",
+   "name_dari": "امام صاحب",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1411",
+   "province_pcode": "AF14",
+   "name_latin": "Spera",
+   "name_dari": "سپیره",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3212",
+   "province_pcode": "AF32",
+   "name_latin": "Obe",
+   "name_dari": "اوبی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1509",
+   "province_pcode": "AF15",
+   "name_latin": "Chawkay",
+   "name_dari": "چوکی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0115",
+   "province_pcode": "AF01",
+   "name_latin": "Surobi",
+   "name_dari": "سروبی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3013",
+   "province_pcode": "AF30",
+   "name_latin": "Deh-e-Shu",
+   "name_dari": "دیشو",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1106",
+   "province_pcode": "AF11",
+   "name_latin": "Jaghatu",
+   "name_dari": "جغتو",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1711",
+   "province_pcode": "AF17",
+   "name_latin": "Teshkan",
+   "name_dari": "تشکان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2403",
+   "province_pcode": "AF24",
+   "name_latin": "Ashtarlay",
+   "name_dari": "اشترلی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2304",
+   "province_pcode": "AF23",
+   "name_latin": "Charsadra",
+   "name_dari": "چار صد ره",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2001",
+   "province_pcode": "AF20",
+   "name_latin": "Aybak",
+   "name_dari": "ایبک",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1604",
+   "province_pcode": "AF16",
+   "name_latin": "Nurgaram",
+   "name_dari": "نورگرام",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1513",
+   "province_pcode": "AF15",
+   "name_latin": "Chapa Dara",
+   "name_dari": "چپه دره",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1410",
+   "province_pcode": "AF14",
+   "name_latin": "Qalandar",
+   "name_dari": "قلندر",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1112",
+   "province_pcode": "AF11",
+   "name_latin": "Giro",
+   "name_dari": "گیرو",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0403",
+   "province_pcode": "AF04",
+   "name_latin": "Jalrez",
+   "name_dari": "جلریز",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1104",
+   "province_pcode": "AF11",
+   "name_latin": "Waghaz",
+   "name_dari": "واغظ",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2505",
+   "province_pcode": "AF25",
+   "name_latin": "Khas Uruzgan",
+   "name_dari": "خاص ارزگان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1708",
+   "province_pcode": "AF17",
+   "name_latin": "Kohistan",
+   "name_dari": "کوهستان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0108",
+   "province_pcode": "AF01",
+   "name_latin": "Mir Bacha Kot",
+   "name_dari": "میر بچه کوت",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2405",
+   "province_pcode": "AF24",
+   "name_latin": "Kiti",
+   "name_dari": "کیتی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0201",
+   "province_pcode": "AF02",
+   "name_latin": "Mahmood-e-Raqi",
+   "name_dari": "محمود راقی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2507",
+   "province_pcode": "AF25",
+   "name_latin": "Gizab",
+   "name_dari": "گیزاب",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1412",
+   "province_pcode": "AF14",
+   "name_latin": "Shamal",
+   "name_dari": "شمل",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1307",
+   "province_pcode": "AF13",
+   "name_latin": "Jaji",
+   "name_dari": "علی خیل",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0602",
+   "province_pcode": "AF06",
+   "name_latin": "Behsud",
+   "name_dari": "بهسود",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1308",
+   "province_pcode": "AF13",
+   "name_latin": "Lija Ahmad Khel",
+   "name_dari": "لجه احمد خیل",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2610",
+   "province_pcode": "AF26",
+   "name_latin": "Shamul Zayi",
+   "name_dari": "شملزائی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0617",
+   "province_pcode": "AF06",
+   "name_latin": "Muhmand Dara",
+   "name_dari": "مهمند دره",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1113",
+   "province_pcode": "AF11",
+   "name_latin": "Ab Band",
+   "name_dari": "آب بند",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2811",
+   "province_pcode": "AF28",
+   "name_latin": "Darzab",
+   "name_dari": "درز آب",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3208",
+   "province_pcode": "AF32",
+   "name_latin": "Gulran",
+   "name_dari": "گلران",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1803",
+   "province_pcode": "AF18",
+   "name_latin": "Baharak",
+   "name_dari": "بهارک",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2705",
+   "province_pcode": "AF27",
+   "name_latin": "Zheray",
+   "name_dari": "ژړۍ",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2607",
+   "province_pcode": "AF26",
+   "name_latin": "Daychopan",
+   "name_dari": "دای چوپان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1503",
+   "province_pcode": "AF15",
+   "name_latin": "Watapur",
+   "name_dari": "وته پور",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1114",
+   "province_pcode": "AF11",
+   "name_latin": "Jaghuri",
+   "name_dari": "جاغوری",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3402",
+   "province_pcode": "AF34",
+   "name_latin": "Kang",
+   "name_dari": "کنگ",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1309",
+   "province_pcode": "AF13",
+   "name_latin": "Jani Khel",
+   "name_dari": "جانی خیل",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1605",
+   "province_pcode": "AF16",
+   "name_latin": "Duab",
+   "name_dari": "دو آب",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3203",
+   "province_pcode": "AF32",
+   "name_latin": "Guzara",
+   "name_dari": "گذره",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0112",
+   "province_pcode": "AF01",
+   "name_latin": "Farza",
+   "name_dari": "فرزه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0106",
+   "province_pcode": "AF01",
+   "name_latin": "Shakar Dara",
+   "name_dari": "شکردره",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1413",
+   "province_pcode": "AF14",
+   "name_latin": "Jaji Maydan",
+   "name_dari": "جاجی میدان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0621",
+   "province_pcode": "AF06",
+   "name_latin": "Hesarak",
+   "name_dari": "حصارک",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1726",
+   "province_pcode": "AF17",
+   "name_latin": "Koran Wa Monjan",
+   "name_dari": "کران ومنجان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2409",
+   "province_pcode": "AF24",
+   "name_latin": "Patoo",
+   "name_dari": "پاتو",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0704",
+   "province_pcode": "AF07",
+   "name_latin": "Alingar",
+   "name_dari": "علینگار",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1501",
+   "province_pcode": "AF15",
+   "name_latin": "Asad Abad",
+   "name_dari": "اسد آباد",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0401",
+   "province_pcode": "AF04",
+   "name_latin": "Maydan Shahr",
+   "name_dari": "میدان شهر",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1713",
+   "province_pcode": "AF17",
+   "name_latin": "Shahr-e-Buzorg",
+   "name_dari": "شهر بزرگ",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2604",
+   "province_pcode": "AF26",
+   "name_latin": "Mizan",
+   "name_dari": "میزان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3302",
+   "province_pcode": "AF33",
+   "name_latin": "Pushtrod",
+   "name_dari": "پشترود",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1404",
+   "province_pcode": "AF14",
+   "name_latin": "Tani",
+   "name_dari": "تنی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0909",
+   "province_pcode": "AF09",
+   "name_latin": "Khwaja Hejran",
+   "name_dari": "خواجه هجران",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2713",
+   "province_pcode": "AF27",
+   "name_latin": "Miyanshin",
+   "name_dari": "میانشین",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1212",
+   "province_pcode": "AF12",
+   "name_latin": "Ziruk",
+   "name_dari": "زیړوک",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1813",
+   "province_pcode": "AF18",
+   "name_latin": "Warsaj",
+   "name_dari": "ورسج",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2109",
+   "province_pcode": "AF21",
+   "name_latin": "Dawlat Abad",
+   "name_dari": "دولت آباد",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1802",
+   "province_pcode": "AF18",
+   "name_latin": "Hazar Sumuch",
+   "name_dari": "هزار سموچ",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0914",
+   "province_pcode": "AF09",
+   "name_latin": "Guzargah-e-Nur",
+   "name_dari": "گذرگاه نور",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2101",
+   "province_pcode": "AF21",
+   "name_latin": "Mazar-e-Sharif",
+   "name_dari": "مزار شریف",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1801",
+   "province_pcode": "AF18",
+   "name_latin": "Taloqan",
+   "name_dari": "تالقان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1603",
+   "province_pcode": "AF16",
+   "name_latin": "Wama",
+   "name_dari": "واما",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1710",
+   "province_pcode": "AF17",
+   "name_latin": "Jorm",
+   "name_dari": "جرم",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0203",
+   "province_pcode": "AF02",
+   "name_latin": "Koh Band",
+   "name_dari": "کوه بند",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0105",
+   "province_pcode": "AF01",
+   "name_latin": "Deh Sabz",
+   "name_dari": "ده سبز",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3304",
+   "province_pcode": "AF33",
+   "name_latin": "Qala-e-Kah",
+   "name_dari": "قلعه کاه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2503",
+   "province_pcode": "AF25",
+   "name_latin": "Chora",
+   "name_dari": "چوره",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0701",
+   "province_pcode": "AF07",
+   "name_latin": "Mehtarlam",
+   "name_dari": "مهتر لام",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2912",
+   "province_pcode": "AF29",
+   "name_latin": "Qurghan",
+   "name_dari": "قرغان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1804",
+   "province_pcode": "AF18",
+   "name_latin": "Bangi",
+   "name_dari": "بنگی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0308",
+   "province_pcode": "AF03",
+   "name_latin": "Koh-e-Safi",
+   "name_dari": "کوه صافی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1718",
+   "province_pcode": "AF17",
+   "name_latin": "Yamgan",
+   "name_dari": "یمگان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1606",
+   "province_pcode": "AF16",
+   "name_latin": "Kamdesh",
+   "name_dari": "کامدیش",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3105",
+   "province_pcode": "AF31",
+   "name_latin": "Bala Murghab",
+   "name_dari": "بالا مرغاب",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1213",
+   "province_pcode": "AF12",
+   "name_latin": "Nika",
+   "name_dari": "نیکه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0606",
+   "province_pcode": "AF06",
+   "name_latin": "Kuz Kunar",
+   "name_dari": "کوز کنر",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0406",
+   "province_pcode": "AF04",
+   "name_latin": "Daymirdad",
+   "name_dari": "دایمیرداد",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1101",
+   "province_pcode": "AF11",
+   "name_latin": "Ghazni",
+   "name_dari": "غزنی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1214",
+   "province_pcode": "AF12",
+   "name_latin": "Barmal",
+   "name_dari": "برمل",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0705",
+   "province_pcode": "AF07",
+   "name_latin": "Dawlatshah",
+   "name_dari": "دولت شاه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1725",
+   "province_pcode": "AF17",
+   "name_latin": "Zebak",
+   "name_dari": "زیباک",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2911",
+   "province_pcode": "AF29",
+   "name_latin": "Qaram Qul",
+   "name_dari": "قرم قل",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0620",
+   "province_pcode": "AF06",
+   "name_latin": "Nazyan",
+   "name_dari": "نازیان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1304",
+   "province_pcode": "AF13",
+   "name_latin": "Shawak",
+   "name_dari": "شواک",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0306",
+   "province_pcode": "AF03",
+   "name_latin": "Salang",
+   "name_dari": "سالنگ",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0703",
+   "province_pcode": "AF07",
+   "name_latin": "Alishang",
+   "name_dari": "علیشنگ",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0702",
+   "province_pcode": "AF07",
+   "name_latin": "Qarghayi",
+   "name_dari": "قرغه ئی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3012",
+   "province_pcode": "AF30",
+   "name_latin": "Baghran",
+   "name_dari": "باغران",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3201",
+   "province_pcode": "AF32",
+   "name_latin": "Hirat",
+   "name_dari": "هرات",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1219",
+   "province_pcode": "AF12",
+   "name_latin": "Turwo",
+   "name_dari": "تروو",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3307",
+   "province_pcode": "AF33",
+   "name_latin": "Anar Dara",
+   "name_dari": "انار دره",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2611",
+   "province_pcode": "AF26",
+   "name_latin": "Kakar",
+   "name_dari": "کاکړ",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0205",
+   "province_pcode": "AF02",
+   "name_latin": "Nijrab",
+   "name_dari": "نجراب",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3308",
+   "province_pcode": "AF33",
+   "name_latin": "Bakwa",
+   "name_dari": "بکواه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0408",
+   "province_pcode": "AF04",
+   "name_latin": "Jaghatu",
+   "name_dari": "جغتو",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3306",
+   "province_pcode": "AF33",
+   "name_latin": "Bala Buluk",
+   "name_dari": "بالا بلوک",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0107",
+   "province_pcode": "AF01",
+   "name_latin": "Musahi",
+   "name_dari": "موسهی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2406",
+   "province_pcode": "AF24",
+   "name_latin": "Miramor",
+   "name_dari": "میرامور",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2115",
+   "province_pcode": "AF21",
+   "name_latin": "Zari",
+   "name_dari": "زاری",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0109",
+   "province_pcode": "AF01",
+   "name_latin": "Khak-e-Jabbar",
+   "name_dari": "خاک جبار",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1805",
+   "province_pcode": "AF18",
+   "name_latin": "Chal",
+   "name_dari": "چال",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1102",
+   "province_pcode": "AF11",
+   "name_latin": "Wal-e-Muhammad-e-Shahid",
+   "name_dari": "ولی محمد شهید",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1514",
+   "province_pcode": "AF15",
+   "name_latin": "Nurgal",
+   "name_dari": "نورگل",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0604",
+   "province_pcode": "AF06",
+   "name_latin": "Chaparhar",
+   "name_dari": "چپر هار",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1305",
+   "province_pcode": "AF13",
+   "name_latin": "Zadran",
+   "name_dari": "حّدران",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0607",
+   "province_pcode": "AF06",
+   "name_latin": "Rodat",
+   "name_dari": "رودات",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2908",
+   "province_pcode": "AF29",
+   "name_latin": "Garzewan",
+   "name_dari": "گرزیوان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2904",
+   "province_pcode": "AF29",
+   "name_latin": "Almar",
+   "name_dari": "المار",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1302",
+   "province_pcode": "AF13",
+   "name_latin": "Ahmadaba",
+   "name_dari": "احمد آبا",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0802",
+   "province_pcode": "AF08",
+   "name_latin": "Rukha",
+   "name_dari": "رُخه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3404",
+   "province_pcode": "AF34",
+   "name_latin": "Char Burjak",
+   "name_dari": "چاربرجک",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1211",
+   "province_pcode": "AF12",
+   "name_latin": "Urgun",
+   "name_dari": "ارگون",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2806",
+   "province_pcode": "AF28",
+   "name_latin": "Khamyab",
+   "name_dari": "خمیاب",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1709",
+   "province_pcode": "AF17",
+   "name_latin": "Yawan",
+   "name_dari": "یاوان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1808",
+   "province_pcode": "AF18",
+   "name_latin": "Farkhar",
+   "name_dari": "فرخار",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1903",
+   "province_pcode": "AF19",
+   "name_latin": "Ali Abad",
+   "name_dari": "علی آباد",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3008",
+   "province_pcode": "AF30",
+   "name_latin": "Sangin",
+   "name_dari": "سنگین",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0609",
+   "province_pcode": "AF06",
+   "name_latin": "Bati Kot",
+   "name_dari": "بتی کوټ",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3301",
+   "province_pcode": "AF33",
+   "name_latin": "Farah",
+   "name_dari": "فراه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1105",
+   "province_pcode": "AF11",
+   "name_latin": "Deh Yak",
+   "name_dari": "ده یک",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3305",
+   "province_pcode": "AF33",
+   "name_latin": "Shibkoh",
+   "name_dari": "شیب کوه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1303",
+   "province_pcode": "AF13",
+   "name_latin": "Zurmat",
+   "name_dari": "زُرمت",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1204",
+   "province_pcode": "AF12",
+   "name_latin": "Yahya Khel",
+   "name_dari": "یحی خیل",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3106",
+   "province_pcode": "AF31",
+   "name_latin": "Jawand",
+   "name_dari": "جوند",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1716",
+   "province_pcode": "AF17",
+   "name_latin": "Warduj",
+   "name_dari": "وردوج",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3311",
+   "province_pcode": "AF33",
+   "name_latin": "Pur Chaman",
+   "name_dari": "پُرچمن",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0613",
+   "province_pcode": "AF06",
+   "name_latin": "Kot",
+   "name_dari": "کوټ",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2714",
+   "province_pcode": "AF27",
+   "name_latin": "Shorabak",
+   "name_dari": "شور آبک",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0309",
+   "province_pcode": "AF03",
+   "name_latin": "Surkh-e-Parsa",
+   "name_dari": "سرخ پارسا",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0305",
+   "province_pcode": "AF03",
+   "name_latin": "Jabal Saraj",
+   "name_dari": "جبل السراج",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1208",
+   "province_pcode": "AF12",
+   "name_latin": "Gomal",
+   "name_dari": "گومل",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1311",
+   "province_pcode": "AF13",
+   "name_latin": "Dand Wa Patan",
+   "name_dari": "دند وپټان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2302",
+   "province_pcode": "AF23",
+   "name_latin": "DoLayna",
+   "name_dari": "دو لینه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1109",
+   "province_pcode": "AF11",
+   "name_latin": "Rashidan",
+   "name_dari": "رشیدان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0803",
+   "province_pcode": "AF08",
+   "name_latin": "Dara",
+   "name_dari": "دره",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1116",
+   "province_pcode": "AF11",
+   "name_latin": "Malistan",
+   "name_dari": "مالستان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3006",
+   "province_pcode": "AF30",
+   "name_latin": "Garmser",
+   "name_dari": "گرم سیر",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0104",
+   "province_pcode": "AF01",
+   "name_latin": "Bagrami",
+   "name_dari": "بگرامی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1115",
+   "province_pcode": "AF11",
+   "name_latin": "Muqur",
+   "name_dari": "مقر",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2309",
+   "province_pcode": "AF23",
+   "name_latin": "Tolak",
+   "name_dari": "تولک",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3004",
+   "province_pcode": "AF30",
+   "name_latin": "Nahr-e-Saraj",
+   "name_dari": "نهر سراج",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0101",
+   "province_pcode": "AF01",
+   "name_latin": "Kabul",
+   "name_dari": "کابل",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2005",
+   "province_pcode": "AF20",
+   "name_latin": "Ruy-e-Duab",
+   "name_dari": "روی دو آب",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3003",
+   "province_pcode": "AF30",
+   "name_latin": "Nawa-e-Barakzaiy",
+   "name_dari": "ناوه بارکزائی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0619",
+   "province_pcode": "AF06",
+   "name_latin": "Sherzad",
+   "name_dari": "شیرزاد",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0615",
+   "province_pcode": "AF06",
+   "name_latin": "Achin",
+   "name_dari": "اچین",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2307",
+   "province_pcode": "AF23",
+   "name_latin": "Lal Wa Sarjangal",
+   "name_dari": "لعل و سرجنگل",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2103",
+   "province_pcode": "AF21",
+   "name_latin": "Dehdadi",
+   "name_dari": "دهدادی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0206",
+   "province_pcode": "AF02",
+   "name_latin": "Tagab",
+   "name_dari": "تگاب",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2111",
+   "province_pcode": "AF21",
+   "name_latin": "Char Bolak",
+   "name_dari": "چار بولک",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3001",
+   "province_pcode": "AF30",
+   "name_latin": "Lashkargah",
+   "name_dari": "لشکرگاه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1806",
+   "province_pcode": "AF18",
+   "name_latin": "Namak Ab",
+   "name_dari": "نمک آب",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0913",
+   "province_pcode": "AF09",
+   "name_latin": "Khost Wa Fereng",
+   "name_dari": "خوست و فرنگ",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0618",
+   "province_pcode": "AF06",
+   "name_latin": "Lalpur",
+   "name_dari": "لعل پور",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0608",
+   "province_pcode": "AF06",
+   "name_latin": "Khogyani",
+   "name_dari": "خوگیانی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1209",
+   "province_pcode": "AF12",
+   "name_latin": "Jani Khel",
+   "name_dari": "جانی خیل",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2805",
+   "province_pcode": "AF28",
+   "name_latin": "Qush Tepa",
+   "name_dari": "قوش تیپه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2903",
+   "province_pcode": "AF29",
+   "name_latin": "Khwaja Sabz Posh",
+   "name_dari": "خواجه سبزپوش",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1511",
+   "province_pcode": "AF15",
+   "name_latin": "Ghazi Abad",
+   "name_dari": "غازی آباد",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2711",
+   "province_pcode": "AF27",
+   "name_latin": "Spin Boldak",
+   "name_dari": "سپین بولدک",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1510",
+   "province_pcode": "AF15",
+   "name_latin": "Khas Kunar",
+   "name_dari": "خاص کنر",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1816",
+   "province_pcode": "AF18",
+   "name_latin": "Chahab",
+   "name_dari": "چاه آب",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2401",
+   "province_pcode": "AF24",
+   "name_latin": "Nili",
+   "name_dari": "نیلی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1904",
+   "province_pcode": "AF19",
+   "name_latin": "Khan Abad",
+   "name_dari": "خان آباد",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1210",
+   "province_pcode": "AF12",
+   "name_latin": "Surobi",
+   "name_dari": "سروبی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3210",
+   "province_pcode": "AF32",
+   "name_latin": "Kushk-e-Kuhna",
+   "name_dari": "کُشک کهنه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2703",
+   "province_pcode": "AF27",
+   "name_latin": "Daman",
+   "name_dari": "دامان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3206",
+   "province_pcode": "AF32",
+   "name_latin": "Pashtun Zarghun",
+   "name_dari": "پشتون زرغون",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2006",
+   "province_pcode": "AF20",
+   "name_latin": "Dara-e-Suf-e-Payin",
+   "name_dari": "درۀ صوف پائین",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1706",
+   "province_pcode": "AF17",
+   "name_latin": "Baharak",
+   "name_dari": "بهارک",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0907",
+   "province_pcode": "AF09",
+   "name_latin": "Andarab",
+   "name_dari": "اندراب",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1205",
+   "province_pcode": "AF12",
+   "name_latin": "Sar Rawzah",
+   "name_dari": "سرروضه (سرحوضه)",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2504",
+   "province_pcode": "AF25",
+   "name_latin": "Shahid-e-Hassas",
+   "name_dari": "شهید حساس",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0610",
+   "province_pcode": "AF06",
+   "name_latin": "Deh Bala",
+   "name_dari": "ده بالا",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1301",
+   "province_pcode": "AF13",
+   "name_latin": "Gardez",
+   "name_dari": "گردیز",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2706",
+   "province_pcode": "AF27",
+   "name_latin": "Shah Wali Kot",
+   "name_dari": "شاه ولی کوت",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2104",
+   "province_pcode": "AF21",
+   "name_latin": "Charkent",
+   "name_dari": "چار کنت",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1721",
+   "province_pcode": "AF17",
+   "name_latin": "Kofab",
+   "name_dari": "کوف آب",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2901",
+   "province_pcode": "AF29",
+   "name_latin": "Maymana",
+   "name_dari": "میمنه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0805",
+   "province_pcode": "AF08",
+   "name_latin": "Anawa",
+   "name_dari": "عنابه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1306",
+   "province_pcode": "AF13",
+   "name_latin": "Sayed Karam",
+   "name_dari": "سیدکرم",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3005",
+   "province_pcode": "AF30",
+   "name_latin": "Washer",
+   "name_dari": "واشیر",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0304",
+   "province_pcode": "AF03",
+   "name_latin": "Sayed Khel",
+   "name_dari": "سیدخیل",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2603",
+   "province_pcode": "AF26",
+   "name_latin": "Shinkay",
+   "name_dari": "شینکی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0111",
+   "province_pcode": "AF01",
+   "name_latin": "Guldara",
+   "name_dari": "گلدره",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1701",
+   "province_pcode": "AF17",
+   "name_latin": "Fayzabad",
+   "name_dari": "فیض آباد",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1403",
+   "province_pcode": "AF14",
+   "name_latin": "Gurbuz",
+   "name_dari": "گربز",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2502",
+   "province_pcode": "AF25",
+   "name_latin": "Dehrawud",
+   "name_dari": "دهراود",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2501",
+   "province_pcode": "AF25",
+   "name_latin": "Tirinkot",
+   "name_dari": "تیرینکوت",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1216",
+   "province_pcode": "AF12",
+   "name_latin": "Dila",
+   "name_dari": "دیله",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2112",
+   "province_pcode": "AF21",
+   "name_latin": "Shortepa",
+   "name_dari": "شور تیپه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3103",
+   "province_pcode": "AF31",
+   "name_latin": "Muqur",
+   "name_dari": "مقر",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1108",
+   "province_pcode": "AF11",
+   "name_latin": "Zanakhan",
+   "name_dari": "زنه خان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1601",
+   "province_pcode": "AF16",
+   "name_latin": "Parun",
+   "name_dari": "پرونس",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0204",
+   "province_pcode": "AF02",
+   "name_latin": "Hisa-e-Awal-e-Kohistan",
+   "name_dari": "حصه اول کوهستان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0310",
+   "province_pcode": "AF03",
+   "name_latin": "Shekh Ali",
+   "name_dari": "شیخ علی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0903",
+   "province_pcode": "AF09",
+   "name_latin": "Doshi",
+   "name_dari": "دوشی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1714",
+   "province_pcode": "AF17",
+   "name_latin": "Raghestan",
+   "name_dari": "راغستان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1408",
+   "province_pcode": "AF14",
+   "name_latin": "Terezayi",
+   "name_dari": "تری زائی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2202",
+   "province_pcode": "AF22",
+   "name_latin": "Sayad",
+   "name_dari": "صیاد",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0202",
+   "province_pcode": "AF02",
+   "name_latin": "Hisa-e-Duwum-e-Kohistan",
+   "name_dari": "حصه دوم کوهستان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2201",
+   "province_pcode": "AF22",
+   "name_latin": "Sar-e-Pul",
+   "name_dari": "سرپل",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3011",
+   "province_pcode": "AF30",
+   "name_latin": "Reg-i-Khan Nishin",
+   "name_dari": "ریگ خان نشین",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0502",
+   "province_pcode": "AF05",
+   "name_latin": "Baraki Barak",
+   "name_dari": "برکی برک",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1906",
+   "province_pcode": "AF19",
+   "name_latin": "Dasht-e-Archi",
+   "name_dari": "دشت ارچی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0902",
+   "province_pcode": "AF09",
+   "name_latin": "Dahana-e-Ghori",
+   "name_dari": "دهنۀ غوری",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0912",
+   "province_pcode": "AF09",
+   "name_latin": "Pul-e-Hisar",
+   "name_dari": "پل حصار",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1507",
+   "province_pcode": "AF15",
+   "name_latin": "Dara-e-Pech",
+   "name_dari": "دره پیچ",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0303",
+   "province_pcode": "AF03",
+   "name_latin": "Shinwari",
+   "name_dari": "شینواری",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2308",
+   "province_pcode": "AF23",
+   "name_latin": "Taywarah",
+   "name_dari": "تیوره",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2303",
+   "province_pcode": "AF23",
+   "name_latin": "Dawlatyar",
+   "name_dari": "دولت یار",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1907",
+   "province_pcode": "AF19",
+   "name_latin": "Qala-e-Zal",
+   "name_dari": "قلعه ذال",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2608",
+   "province_pcode": "AF26",
+   "name_latin": "Atghar",
+   "name_dari": "اتغر",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3405",
+   "province_pcode": "AF34",
+   "name_latin": "Khashrod",
+   "name_dari": "خاش رود",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2404",
+   "province_pcode": "AF24",
+   "name_latin": "Khadir",
+   "name_dari": "خدیر",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1002",
+   "province_pcode": "AF10",
+   "name_latin": "Shibar",
+   "name_dari": "شیبر",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3010",
+   "province_pcode": "AF30",
+   "name_latin": "Kajaki",
+   "name_dari": "کجکی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1704",
+   "province_pcode": "AF17",
+   "name_latin": "Yaftal-e-Sufla",
+   "name_dari": "یفتل سفلی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2701",
+   "province_pcode": "AF27",
+   "name_latin": "Kandahar",
+   "name_dari": "کندهار",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1006",
+   "province_pcode": "AF10",
+   "name_latin": "Panjab",
+   "name_dari": "پنجاب",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1107",
+   "province_pcode": "AF11",
+   "name_latin": "Andar",
+   "name_dari": "اندړ",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2305",
+   "province_pcode": "AF23",
+   "name_latin": "Pasaband",
+   "name_dari": "پسابند",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0503",
+   "province_pcode": "AF05",
+   "name_latin": "Charkh",
+   "name_dari": "چرخ",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0404",
+   "province_pcode": "AF04",
+   "name_latin": "Chak-e-Wardak",
+   "name_dari": "چک",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2803",
+   "province_pcode": "AF28",
+   "name_latin": "Khanaqa",
+   "name_dari": "خانقا",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0616",
+   "province_pcode": "AF06",
+   "name_latin": "Shinwar",
+   "name_dari": "شینوار",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1203",
+   "province_pcode": "AF12",
+   "name_latin": "Yosuf Khel",
+   "name_dari": "یوسف خیل",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1502",
+   "province_pcode": "AF15",
+   "name_latin": "Marawara",
+   "name_dari": "مروره",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2106",
+   "province_pcode": "AF21",
+   "name_latin": "Balkh",
+   "name_dari": "بلخ",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3207",
+   "province_pcode": "AF32",
+   "name_latin": "Kushk",
+   "name_dari": "کُشک",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2715",
+   "province_pcode": "AF27",
+   "name_latin": "Maruf",
+   "name_dari": "معروف",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1608",
+   "province_pcode": "AF16",
+   "name_latin": "Barg-e-Matal",
+   "name_dari": "برگ متال",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1001",
+   "province_pcode": "AF10",
+   "name_latin": "Bamyan",
+   "name_dari": "بامیان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0906",
+   "province_pcode": "AF09",
+   "name_latin": "Khinjan",
+   "name_dari": "خنجان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2914",
+   "province_pcode": "AF29",
+   "name_latin": "Khan-e-Char Bagh",
+   "name_dari": "خان چارباغ",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1506",
+   "province_pcode": "AF15",
+   "name_latin": "Shigal",
+   "name_dari": "شیگل وشلتن",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1812",
+   "province_pcode": "AF18",
+   "name_latin": "Dasht-e-Qala",
+   "name_dari": "دشت قلعه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2707",
+   "province_pcode": "AF27",
+   "name_latin": "Khakrez",
+   "name_dari": "خاکریز",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2301",
+   "province_pcode": "AF23",
+   "name_latin": "Feroz Koh",
+   "name_dari": "فیروزکوه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1702",
+   "province_pcode": "AF17",
+   "name_latin": "Argo",
+   "name_dari": "ارگو",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2702",
+   "province_pcode": "AF27",
+   "name_latin": "Arghandab",
+   "name_dari": "ارغنداب",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3002",
+   "province_pcode": "AF30",
+   "name_latin": "Nad-e-Ali",
+   "name_dari": "نادعلی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2810",
+   "province_pcode": "AF28",
+   "name_latin": "Qarqin",
+   "name_dari": "قرقین",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1807",
+   "province_pcode": "AF18",
+   "name_latin": "Kalafgan",
+   "name_dari": "کلفگان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2407",
+   "province_pcode": "AF24",
+   "name_latin": "Sang-e-Takht",
+   "name_dari": "سنگ تخت",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2003",
+   "province_pcode": "AF20",
+   "name_latin": "Khuram Wa Sarbagh",
+   "name_dari": "خرم وسارباغ",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1201",
+   "province_pcode": "AF12",
+   "name_latin": "Sharan",
+   "name_dari": "شرن",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2910",
+   "province_pcode": "AF29",
+   "name_latin": "Kohistan",
+   "name_dari": "کوهستان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2008",
+   "province_pcode": "AF20",
+   "name_latin": "Khulm",
+   "name_dari": "خلم",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1717",
+   "province_pcode": "AF17",
+   "name_latin": "Tagab",
+   "name_dari": "تگاب",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0207",
+   "province_pcode": "AF02",
+   "name_latin": "Alasay",
+   "name_dari": "اله سای",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3205",
+   "province_pcode": "AF32",
+   "name_latin": "Zindajan",
+   "name_dari": "زنده جان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1607",
+   "province_pcode": "AF16",
+   "name_latin": "Mandol",
+   "name_dari": "مندول",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1504",
+   "province_pcode": "AF15",
+   "name_latin": "Narang",
+   "name_dari": "نرنگ",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1722",
+   "province_pcode": "AF17",
+   "name_latin": "Darwaz-e-Payin",
+   "name_dari": "درواز پائین (ما می )",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0301",
+   "province_pcode": "AF03",
+   "name_latin": "Charikar",
+   "name_dari": "چاریکار",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1814",
+   "province_pcode": "AF18",
+   "name_latin": "Khwaja Bahawuddin",
+   "name_dari": "خواجه بهاوالدین",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3401",
+   "province_pcode": "AF34",
+   "name_latin": "Zaranj",
+   "name_dari": "زرنج",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2606",
+   "province_pcode": "AF26",
+   "name_latin": "Shah Joi",
+   "name_dari": "شاه جوی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3007",
+   "province_pcode": "AF30",
+   "name_latin": "Nawzad",
+   "name_dari": "نوزاد",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1406",
+   "province_pcode": "AF14",
+   "name_latin": "Nadir Shah Kot",
+   "name_dari": "نادرشاه کوت",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2207",
+   "province_pcode": "AF22",
+   "name_latin": "Balkhab",
+   "name_dari": "بلخاب",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1811",
+   "province_pcode": "AF18",
+   "name_latin": "Eshkmesh",
+   "name_dari": "اشکمش",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1111",
+   "province_pcode": "AF11",
+   "name_latin": "Qara Bagh",
+   "name_dari": "قره باغ",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1007",
+   "province_pcode": "AF10",
+   "name_latin": "Waras",
+   "name_dari": "ورث",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0405",
+   "province_pcode": "AF04",
+   "name_latin": "Saydabad",
+   "name_dari": "سید آباد",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0409",
+   "province_pcode": "AF04",
+   "name_latin": "Markaz-e-Behsud",
+   "name_dari": "مدکز بهسود",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1727",
+   "province_pcode": "AF17",
+   "name_latin": "Darwaz-e-Balla",
+   "name_dari": "دروازبالا ( نیسی)",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2809",
+   "province_pcode": "AF28",
+   "name_latin": "Mardyan",
+   "name_dari": "مردیان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1703",
+   "province_pcode": "AF17",
+   "name_latin": "Arghanj Khwah",
+   "name_dari": "ارغنچخواه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3214",
+   "province_pcode": "AF32",
+   "name_latin": "Shindand",
+   "name_dari": "شیندند",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0806",
+   "province_pcode": "AF08",
+   "name_latin": "Shutul",
+   "name_dari": "شُتل",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0611",
+   "province_pcode": "AF06",
+   "name_latin": "Pachir Wa Agam",
+   "name_dari": "پچیراگام",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2802",
+   "province_pcode": "AF28",
+   "name_latin": "Khwaja Dukoh",
+   "name_dari": "خواجه دوکوه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3202",
+   "province_pcode": "AF32",
+   "name_latin": "Injil",
+   "name_dari": "انجیل",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0505",
+   "province_pcode": "AF05",
+   "name_latin": "Mohammad Agha",
+   "name_dari": "محمدآغه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2807",
+   "province_pcode": "AF28",
+   "name_latin": "Aqcha",
+   "name_dari": "آقچه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2114",
+   "province_pcode": "AF21",
+   "name_latin": "Keshendeh",
+   "name_dari": "کشنده",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2102",
+   "province_pcode": "AF21",
+   "name_latin": "Nahr-e-Shahi",
+   "name_dari": "نهر شاهی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1103",
+   "province_pcode": "AF11",
+   "name_latin": "Khwaja Umari",
+   "name_dari": "خواجه عمری",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1218",
+   "province_pcode": "AF12",
+   "name_latin": "Wormamay",
+   "name_dari": "وړ ممی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3213",
+   "province_pcode": "AF32",
+   "name_latin": "Kohsan",
+   "name_dari": "کوهسان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2913",
+   "province_pcode": "AF29",
+   "name_latin": "Andkhoy",
+   "name_dari": "اندخوی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1720",
+   "province_pcode": "AF17",
+   "name_latin": "Khwahan",
+   "name_dari": "خواهان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0612",
+   "province_pcode": "AF06",
+   "name_latin": "Dara-e-Nur",
+   "name_dari": "دره نور",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0622",
+   "province_pcode": "AF06",
+   "name_latin": "Dur Baba",
+   "name_dari": "دُر بابا",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1817",
+   "province_pcode": "AF18",
+   "name_latin": "Yangi Qala",
+   "name_dari": "ینگی قلعه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0911",
+   "province_pcode": "AF09",
+   "name_latin": "Tala Wa Barfak",
+   "name_dari": "تاله وبرفک",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1902",
+   "province_pcode": "AF19",
+   "name_latin": "Chahar Darah",
+   "name_dari": "چهار دره",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1215",
+   "province_pcode": "AF12",
+   "name_latin": "Giyan",
+   "name_dari": "گیان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2609",
+   "province_pcode": "AF26",
+   "name_latin": "Nawbahar",
+   "name_dari": "نوبهار",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2007",
+   "province_pcode": "AF20",
+   "name_latin": "Dara-e-Suf-e-Bala",
+   "name_dari": "درۀ صوف بالا",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0904",
+   "province_pcode": "AF09",
+   "name_latin": "Nahrin",
+   "name_dari": "نهرین",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2107",
+   "province_pcode": "AF21",
+   "name_latin": "Sholgareh",
+   "name_dari": "شولگره",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2906",
+   "province_pcode": "AF29",
+   "name_latin": "Shirin Tagab",
+   "name_dari": "شیرین تگاب",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2905",
+   "province_pcode": "AF29",
+   "name_latin": "Bilcheragh",
+   "name_dari": "بلچراغ",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1728",
+   "province_pcode": "AF17",
+   "name_latin": "Wakhan",
+   "name_dari": "واخان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1402",
+   "province_pcode": "AF14",
+   "name_latin": "Mandozayi",
+   "name_dari": "مندوزائی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0801",
+   "province_pcode": "AF08",
+   "name_latin": "Bazarak",
+   "name_dari": "بازارک",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1409",
+   "province_pcode": "AF14",
+   "name_latin": "Bak",
+   "name_dari": "باک",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2808",
+   "province_pcode": "AF28",
+   "name_latin": "Fayzabad",
+   "name_dari": "فیض آباد",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0605",
+   "province_pcode": "AF06",
+   "name_latin": "Kama",
+   "name_dari": "کامه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1003",
+   "province_pcode": "AF10",
+   "name_latin": "Sayghan",
+   "name_dari": "سیغان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1901",
+   "province_pcode": "AF19",
+   "name_latin": "Kunduz",
+   "name_dari": "کندز",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1110",
+   "province_pcode": "AF11",
+   "name_latin": "Nawur",
+   "name_dari": "ناور",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2310",
+   "province_pcode": "AF23",
+   "name_latin": "Saghar",
+   "name_dari": "ساغر",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1119",
+   "province_pcode": "AF11",
+   "name_latin": "Nawa",
+   "name_dari": "ناوه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1117",
+   "province_pcode": "AF11",
+   "name_latin": "Gelan",
+   "name_dari": "گیلان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1515",
+   "province_pcode": "AF15",
+   "name_latin": "Nari",
+   "name_dari": "ناړی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3403",
+   "province_pcode": "AF34",
+   "name_latin": "Chakhansur",
+   "name_dari": "چخانسور",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1407",
+   "province_pcode": "AF14",
+   "name_latin": "Sabari",
+   "name_dari": "صبری",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1719",
+   "province_pcode": "AF17",
+   "name_latin": "Shighnan",
+   "name_dari": "شغنان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0407",
+   "province_pcode": "AF04",
+   "name_latin": "Hesa-e-Awal-e-Behsud",
+   "name_dari": "حصه اول بهسود",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0901",
+   "province_pcode": "AF09",
+   "name_latin": "Pul-e-Khumri",
+   "name_dari": "پلخمری",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2602",
+   "province_pcode": "AF26",
+   "name_latin": "Tarnak Wa Jaldak",
+   "name_dari": "ترنک و جلدک",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0908",
+   "province_pcode": "AF09",
+   "name_latin": "Deh Salah",
+   "name_dari": "ده صلاح",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1401",
+   "province_pcode": "AF14",
+   "name_latin": "Matun",
+   "name_dari": "خوست (متون)",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1815",
+   "province_pcode": "AF18",
+   "name_latin": "Darqad",
+   "name_dari": "درقد",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0504",
+   "province_pcode": "AF05",
+   "name_latin": "Khoshi",
+   "name_dari": "خوشی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3101",
+   "province_pcode": "AF31",
+   "name_latin": "Qala-e-Naw",
+   "name_dari": "قلعه نو",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1512",
+   "province_pcode": "AF15",
+   "name_latin": "Dangam",
+   "name_dari": "دانگام",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3216",
+   "province_pcode": "AF32",
+   "name_latin": "Chisht-e-Sharif",
+   "name_dari": "چشت شریف",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3303",
+   "province_pcode": "AF33",
+   "name_latin": "Khak-e-Safed",
+   "name_dari": "خاک سفید",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1004",
+   "province_pcode": "AF10",
+   "name_latin": "Kahmard",
+   "name_dari": "کهمرد",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2712",
+   "province_pcode": "AF27",
+   "name_latin": "Nesh",
+   "name_dari": "نیش",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3204",
+   "province_pcode": "AF32",
+   "name_latin": "Karukh",
+   "name_dari": "کرُخ",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0402",
+   "province_pcode": "AF04",
+   "name_latin": "Nerkh",
+   "name_dari": "نرخ",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2716",
+   "province_pcode": "AF27",
+   "name_latin": "Reg",
+   "name_dari": "ریگ ( شگه )",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1508",
+   "province_pcode": "AF15",
+   "name_latin": "Bar Kunar",
+   "name_dari": "برکنر",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2710",
+   "province_pcode": "AF27",
+   "name_latin": "Maywand",
+   "name_dari": "میوند",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1723",
+   "province_pcode": "AF17",
+   "name_latin": "Eshkashem",
+   "name_dari": "اشکاشم",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0804",
+   "province_pcode": "AF08",
+   "name_latin": "Khenj",
+   "name_dari": "خنج (حصه اول)",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1217",
+   "province_pcode": "AF12",
+   "name_latin": "Wazakhah",
+   "name_dari": "وازه خواه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2408",
+   "province_pcode": "AF24",
+   "name_latin": "Kajran",
+   "name_dari": "کجران",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1207",
+   "province_pcode": "AF12",
+   "name_latin": "Zarghun Shahr",
+   "name_dari": "زرغون شهر",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0302",
+   "province_pcode": "AF03",
+   "name_latin": "Bagram",
+   "name_dari": "بگرام",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1118",
+   "province_pcode": "AF11",
+   "name_latin": "Ajristan",
+   "name_dari": "اجرستان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3211",
+   "province_pcode": "AF32",
+   "name_latin": "Ghoryan",
+   "name_dari": "غوریان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0910",
+   "province_pcode": "AF09",
+   "name_latin": "Burka",
+   "name_dari": "بورکه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0601",
+   "province_pcode": "AF06",
+   "name_latin": "Jalalabad",
+   "name_dari": "جلال آباد",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3215",
+   "province_pcode": "AF32",
+   "name_latin": "Farsi",
+   "name_dari": "فرسی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1809",
+   "province_pcode": "AF18",
+   "name_latin": "Khwaja Ghar",
+   "name_dari": "خواجه غار",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2205",
+   "province_pcode": "AF22",
+   "name_latin": "Sancharak",
+   "name_dari": "سانچارك",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1505",
+   "province_pcode": "AF15",
+   "name_latin": "Sar Kani",
+   "name_dari": "سرکانی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0905",
+   "province_pcode": "AF09",
+   "name_latin": "Baghlan-e-Jadid",
+   "name_dari": "بغلان جدید",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0614",
+   "province_pcode": "AF06",
+   "name_latin": "Goshta",
+   "name_dari": "گوشته",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2204",
+   "province_pcode": "AF22",
+   "name_latin": "Sozmaqala",
+   "name_dari": "سوزمه قلعه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2708",
+   "province_pcode": "AF27",
+   "name_latin": "Arghestan",
+   "name_dari": "ارغستان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3107",
+   "province_pcode": "AF31",
+   "name_latin": "Ghormach",
+   "name_dari": "غورماچ",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2801",
+   "province_pcode": "AF28",
+   "name_latin": "Shiberghan",
+   "name_dari": "شبرغان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0113",
+   "province_pcode": "AF01",
+   "name_latin": "Estalef",
+   "name_dari": "استالف",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2108",
+   "province_pcode": "AF21",
+   "name_latin": "Chemtal",
+   "name_dari": "چمتال",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1707",
+   "province_pcode": "AF17",
+   "name_latin": "Darayem",
+   "name_dari": "درایم",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3009",
+   "province_pcode": "AF30",
+   "name_latin": "Musa Qala",
+   "name_dari": "موسی قلعه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0506",
+   "province_pcode": "AF05",
+   "name_latin": "Kharwar",
+   "name_dari": "خروار",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0603",
+   "province_pcode": "AF06",
+   "name_latin": "Surkh Rod",
+   "name_dari": "سرخ رود",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2203",
+   "province_pcode": "AF22",
+   "name_latin": "Kohestanat",
+   "name_dari": "کوهستانات",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0102",
+   "province_pcode": "AF01",
+   "name_latin": "Paghman",
+   "name_dari": "پغمان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1810",
+   "province_pcode": "AF18",
+   "name_latin": "Rostaq",
+   "name_dari": "رُستاق",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1724",
+   "province_pcode": "AF17",
+   "name_latin": "Shaki",
+   "name_dari": "شکی",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2605",
+   "province_pcode": "AF26",
+   "name_latin": "Arghandab",
+   "name_dari": "ارغنداب",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1005",
+   "province_pcode": "AF10",
+   "name_latin": "Yakawlang",
+   "name_dari": "یکاولنگ",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0103",
+   "province_pcode": "AF01",
+   "name_latin": "Chahar Asyab",
+   "name_dari": "چهار آسیاب",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3104",
+   "province_pcode": "AF31",
+   "name_latin": "Qadis",
+   "name_dari": "قادیس",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0110",
+   "province_pcode": "AF01",
+   "name_latin": "Kalakan",
+   "name_dari": "کلکان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2907",
+   "province_pcode": "AF29",
+   "name_latin": "Qaysar",
+   "name_dari": "قیصار",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2004",
+   "province_pcode": "AF20",
+   "name_latin": "Feroz Nakhchir",
+   "name_dari": "فیروز نخچیر",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0507",
+   "province_pcode": "AF05",
+   "name_latin": "Azra",
+   "name_dari": "ازره",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0915",
+   "province_pcode": "AF09",
+   "name_latin": "Fereng Wa Gharu",
+   "name_dari": "فرنگ وغارو",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2601",
+   "province_pcode": "AF26",
+   "name_latin": "Qalat",
+   "name_dari": "قلات",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3310",
+   "province_pcode": "AF33",
+   "name_latin": "Gulistan",
+   "name_dari": "گلستان",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1715",
+   "province_pcode": "AF17",
+   "name_latin": "Keshem",
+   "name_dari": "کشم",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1206",
+   "province_pcode": "AF12",
+   "name_latin": "Omna",
+   "name_dari": "اومنه",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF1405",
+   "province_pcode": "AF14",
+   "name_latin": "Musa Khel",
+   "name_dari": "موسی خیل",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF2909",
+   "province_pcode": "AF29",
+   "name_latin": "Dawlat Abad",
+   "name_dari": "دولت آباد",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF0114",
+   "province_pcode": "AF01",
+   "name_latin": "Qara Bagh",
+   "name_dari": "قره باغ",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3102",
+   "province_pcode": "AF31",
+   "name_latin": "Ab Kamari",
+   "name_dari": "آب کمری",
+   "name_pashto": null
+  },
+  {
+   "pcode": "AF3209",
+   "province_pcode": "AF32",
+   "name_latin": "Adraskan",
+   "name_dari": "ادرسکن",
+   "name_pashto": null
+  }
+ ]
+}

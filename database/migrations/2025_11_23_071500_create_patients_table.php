@@ -15,9 +15,9 @@ return new class extends Migration
             $table->string('last_name', 100);
             $table->date('date_of_birth');
             $table->string('gender', 20);
-            $table->enum('blood_type', ['A+','A-','B+','B-','AB+','AB-','O+','O-'])->nullable();
+            $table->enum('blood_type', ['A+', 'A-', 'B+', 'B-', 'AB+', 'AB-', 'O+', 'O-'])->nullable();
             $table->string('marital_status', 20)->nullable();
-            $table->string('city'); 
+            $table->string('city');
             $table->string('street_address')->nullable();
             $table->string('email', 255)->nullable();
             $table->string('phone_number', 20);
@@ -25,7 +25,7 @@ return new class extends Migration
             $table->string('emergency_name', 20)->nullable();
             $table->jsonb('address_json')->nullable();
             $table->string('medical_file')->nullable();
-            $table->string('remark')->nullable(); 
+            $table->string('remark')->nullable();
             $table->boolean('is_active')->default(true);
             $table->timestamps();
 

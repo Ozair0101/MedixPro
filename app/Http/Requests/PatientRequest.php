@@ -21,7 +21,7 @@ class PatientRequest extends FormRequest
                 'sometimes',
                 'string',
                 'max:20',
-                Rule::unique('patients', 'patient_code')->ignore($patientId, 'id')
+                Rule::unique('patients', 'patient_code')->ignore($patientId, 'id'),
             ],
             'first_name' => 'required|string|max:100',
             'last_name' => 'required|string|max:100',
@@ -31,7 +31,7 @@ class PatientRequest extends FormRequest
                 'nullable',
                 'string',
                 'max:5',
-                Rule::in(['A+','A-','B+','B-','AB+','AB-','O+','O-']),
+                Rule::in(['A+', 'A-', 'B+', 'B-', 'AB+', 'AB-', 'O+', 'O-']),
             ],
             'marital_status' => 'nullable|string|max:20',
             'email' => 'nullable|email|max:255',

@@ -8,6 +8,7 @@ use App\Models\Medication;
 use App\Models\MedicationBatch;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
+use Illuminate\Support\Collection;
 
 class ReportController extends Controller
 {
@@ -76,7 +77,7 @@ class ReportController extends Controller
             ->groupBy('medication_id');
 
         $data = $rows->map(function ($group) {
-            /** @var \Illuminate\Support\Collection $group */
+            /** @var Collection $group */
             /** @var Dispense $first */
             $first = $group->first();
 
