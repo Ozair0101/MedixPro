@@ -9,6 +9,7 @@ use App\Models\Visit;
 use App\Support\AuditLogger;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Str;
 use RuntimeException;
 
 /**
@@ -171,7 +172,7 @@ class EncounterService
             ]);
 
             DB::table('encounter_status_history')->insert([
-                'id' => (string) \Illuminate\Support\Str::uuid(),
+                'id' => (string) Str::uuid(),
                 'encounter_id' => $encounter->id,
                 'status' => $status,
                 'period' => '['.now()->toIso8601String().',)',

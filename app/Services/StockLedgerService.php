@@ -45,7 +45,7 @@ class StockLedgerService
      * Record a stock movement and update the cached balance atomically.
      *
      * @param  array<string, mixed>  $movement
-     * @return int  the ledger row id
+     * @return int the ledger row id
      */
     public function post(array $movement): int
     {

@@ -67,7 +67,7 @@ class GenerateApiRoutes extends Command
             ."| without it queries return nothing, which is the correct behaviour for an\n"
             ."| unattributed request.\n"
             ."|\n"
-            ."| Generated ".now()->toDateString().", ".$controllers->count()." resources.\n"
+            .'| Generated '.now()->toDateString().', '.$controllers->count()." resources.\n"
             ."*/\n\n"
             ."use Illuminate\\Support\\Facades\\Route;\n\n";
 

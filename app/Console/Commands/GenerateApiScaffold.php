@@ -139,12 +139,12 @@ class GenerateApiScaffold extends Command
              ORDER BY c.ordinal_position
         ", [$table]);
 
-        $primaryKey = DB::select("
+        $primaryKey = DB::select('
             SELECT a.attname
               FROM pg_index i
               JOIN pg_attribute a ON a.attrelid = i.indrelid AND a.attnum = ANY(i.indkey)
              WHERE i.indrelid = ?::regclass AND i.indisprimary
-        ", [$table]);
+        ', [$table]);
 
         $foreignKeys = DB::select("
             SELECT kcu.column_name, ccu.table_name AS foreign_table,
@@ -270,7 +270,7 @@ class GenerateApiScaffold extends Command
         $body .= "\n/**\n * Generated from the `{$meta['table']}` table.\n";
         if ($meta['read_only']) {
             $body .= " *\n * APPEND-ONLY. Database triggers reject UPDATE and DELETE; do not add\n"
-                  .  " * mutation methods here. Corrections are new rows, not edits.\n";
+                  ." * mutation methods here. Corrections are new rows, not edits.\n";
         }
         $body .= " */\nclass {$meta['class']} extends Model\n{\n";
 
@@ -334,8 +334,8 @@ class GenerateApiScaffold extends Command
             $seen[$method] = true;
 
             $out .= "\n    public function {$method}(): BelongsTo\n    {\n"
-                 .  "        return \$this->belongsTo({$target}::class, '{$fk->column_name}');\n"
-                 .  "    }\n";
+                 ."        return \$this->belongsTo({$target}::class, '{$fk->column_name}');\n"
+                 ."    }\n";
         }
 
         return $out;
@@ -446,7 +446,7 @@ class GenerateApiScaffold extends Command
 
         if ($readOnly) {
             $body .= " *\n * READ-ONLY. This table is append-only at the database level; the write\n"
-                  .  " * endpoints are omitted rather than offered and rejected.\n";
+                  ." * endpoints are omitted rather than offered and rejected.\n";
         }
 
         $body .= " */\nclass {$class}Controller extends Controller\n{\n"
@@ -489,14 +489,14 @@ class GenerateApiScaffold extends Command
 
             if ($hasActive) {
                 $body .= "        // Deactivate rather than delete: clinical and financial records\n"
-                      .  "        // must stay resolvable for anything that already references them.\n"
-                      .  "        \${$var}->update(['is_active' => false]);\n\n"
-                      .  "        AuditLogger::record('delete', '{$meta['table']}', \$id);\n\n"
-                      .  "        return response()->json(['message' => 'Deactivated.']);\n";
+                      ."        // must stay resolvable for anything that already references them.\n"
+                      ."        \${$var}->update(['is_active' => false]);\n\n"
+                      ."        AuditLogger::record('delete', '{$meta['table']}', \$id);\n\n"
+                      ."        return response()->json(['message' => 'Deactivated.']);\n";
             } else {
                 $body .= "        \${$var}->delete();\n\n"
-                      .  "        AuditLogger::record('delete', '{$meta['table']}', \$id);\n\n"
-                      .  "        return response()->json(['message' => 'Deleted.']);\n";
+                      ."        AuditLogger::record('delete', '{$meta['table']}', \$id);\n\n"
+                      ."        return response()->json(['message' => 'Deleted.']);\n";
             }
 
             $body .= "    }\n";
