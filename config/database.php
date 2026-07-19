@@ -96,6 +96,57 @@ return [
             'prefix_indexes' => true,
             'search_path' => 'public',
             'sslmode' => 'prefer',
+
+            /*
+             | Pin the SESSION timezone to UTC.
+             |
+             | Without this the connection inherits the server's zone — on an
+             | Afghan install that is Asia/Kabul, +04:30. Laravel writes naive
+             | datetime strings ("2026-07-19 07:31:01"), so Postgres would
+             | interpret them in ITS zone while PHP meant UTC, silently shifting
+             | EVERY timestamp the application writes by four and a half hours:
+             | appointment times, encounter periods, dispense times, audit
+             | entries, account lockouts.
+             |
+             | ADR-004 stores Gregorian UTC and converts to Solar Hijri only for
+             | display. This is the line that makes the storage half true.
+             */
+            'timezone' => 'UTC',
+        ],
+
+        /*
+        |----------------------------------------------------------------------
+        | Migration connection
+        |----------------------------------------------------------------------
+        |
+        | Schema changes run as the table OWNER; the application runs as
+        | `hmis_app`, which has no CREATE rights. That split is deliberate and
+        | load-bearing:
+        |
+        |   - A superuser bypasses Row-Level Security unconditionally.
+        |   - A table's OWNER bypasses RLS unless FORCE is set.
+        |
+        | So the application must never connect as the role that owns its
+        | tables, or every tenant-isolation policy is silently inert with no
+        | error to tell you. Keeping DDL on a separate connection is what makes
+        | that separation survive a routine `php artisan migrate`.
+        |
+        | Used by `php artisan hmis:migrate`.
+        */
+        'pgsql_migrate' => [
+            'driver' => 'pgsql',
+            'url' => env('DB_URL'),
+            'host' => env('DB_HOST', '127.0.0.1'),
+            'port' => env('DB_PORT', '5432'),
+            'database' => env('DB_DATABASE', 'laravel'),
+            'username' => env('DB_MIGRATE_USERNAME', 'postgres'),
+            'password' => env('DB_MIGRATE_PASSWORD', ''),
+            'charset' => env('DB_CHARSET', 'utf8'),
+            'prefix' => '',
+            'prefix_indexes' => true,
+            'search_path' => 'public',
+            'sslmode' => 'prefer',
+            'timezone' => 'UTC',
         ],
 
         'sqlsrv' => [

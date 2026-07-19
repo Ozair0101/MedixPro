@@ -35,6 +35,7 @@ return new class extends Migration
 {
     /** Load order matters: later files reference earlier tables. */
     private const FILES = [
+        '05-laravel.sql',
         '10-platform.sql',
         '20-identity.sql',
         '30-encounter-adt.sql',
